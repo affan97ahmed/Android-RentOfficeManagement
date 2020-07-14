@@ -1,0 +1,575 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:dist="http://schemas.android.com/apk/distribution"
+4    package="com.example.jayde.a4ease"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->D:\Android\Akmal\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="28" />
+10-->D:\Android\Akmal\app\src\main\AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:7:5-67
+12-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:7:22-64
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:8:5-79
+13-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:8:22-76
+14    <uses-permission android:name="com.truiton.supportmapfragment.permission.MAPS_RECEIVE" />
+14-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:9:5-94
+14-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:9:22-91
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+15-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:10:5-77
+15-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:10:22-74
+16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+16-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:11:5-76
+16-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:11:22-73
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:12:5-79
+17-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:12:22-76
+18
+19    <dist:module dist:instant="true" />
+19-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:14:5-40
+19-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:14:18-37
+20
+21    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+21-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\edff4c94805a2d7fb8007a391e9dc957\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:21:5-65
+21-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\edff4c94805a2d7fb8007a391e9dc957\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:21:22-62
+22    <uses-feature
+22-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\edff4c94805a2d7fb8007a391e9dc957\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:24:5-26:36
+23        android:name="android.hardware.camera"
+23-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\edff4c94805a2d7fb8007a391e9dc957\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:25:9-47
+24        android:required="false" />
+24-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\edff4c94805a2d7fb8007a391e9dc957\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:26:9-33
+25    <uses-feature
+25-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\edff4c94805a2d7fb8007a391e9dc957\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:27:5-29:36
+26        android:name="android.hardware.camera.front"
+26-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\edff4c94805a2d7fb8007a391e9dc957\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:28:9-53
+27        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+27-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\edff4c94805a2d7fb8007a391e9dc957\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:29:9-33
+28    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+29    <uses-feature
+29-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\edff4c94805a2d7fb8007a391e9dc957\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:32:5-34:36
+30        android:name="android.hardware.camera.autofocus"
+30-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\edff4c94805a2d7fb8007a391e9dc957\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:33:9-57
+31        android:required="false" />
+31-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\edff4c94805a2d7fb8007a391e9dc957\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:34:9-33
+32    <uses-feature
+32-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\edff4c94805a2d7fb8007a391e9dc957\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:35:5-37:36
+33        android:name="android.hardware.camera.flash"
+33-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\edff4c94805a2d7fb8007a391e9dc957\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:36:9-53
+34        android:required="false" />
+34-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\edff4c94805a2d7fb8007a391e9dc957\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:37:9-33
+35    <uses-feature
+35-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\edff4c94805a2d7fb8007a391e9dc957\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:38:5-40:36
+36        android:name="android.hardware.screen.landscape"
+36-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\edff4c94805a2d7fb8007a391e9dc957\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:39:9-57
+37        android:required="false" />
+37-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\edff4c94805a2d7fb8007a391e9dc957\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:40:9-33
+38    <uses-feature
+38-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\edff4c94805a2d7fb8007a391e9dc957\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:41:5-43:36
+39        android:name="android.hardware.wifi"
+39-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\edff4c94805a2d7fb8007a391e9dc957\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:42:9-45
+40        android:required="false" />
+40-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\edff4c94805a2d7fb8007a391e9dc957\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:43:9-33
+41    <uses-feature
+41-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\7568ba76e7ca3967850522f169ef779d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+42        android:glEsVersion="0x00020000"
+42-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\7568ba76e7ca3967850522f169ef779d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+43        android:required="true" />
+43-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\7568ba76e7ca3967850522f169ef779d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+44
+45    <uses-permission android:name="android.permission.WAKE_LOCK" />
+45-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\e78ea75fc38ff4415d281ae9feb22a4f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:25:5-68
+45-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\e78ea75fc38ff4415d281ae9feb22a4f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:25:22-65
+46    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+46-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\e78ea75fc38ff4415d281ae9feb22a4f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:26:5-110
+46-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\e78ea75fc38ff4415d281ae9feb22a4f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:26:22-107
+47    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+47-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\14092e63484c408036652bf98e042e26\jetified-firebase-iid-20.0.2\AndroidManifest.xml:26:5-82
+47-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\14092e63484c408036652bf98e042e26\jetified-firebase-iid-20.0.2\AndroidManifest.xml:26:22-79
+48    <uses-permission android:name="android.permission.VIBRATE" />
+48-->[io.card:android-sdk:5.5.1] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\55a4bbe145140cc96ad17db7999be836\jetified-android-sdk-5.5.1\AndroidManifest.xml:10:5-66
+48-->[io.card:android-sdk:5.5.1] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\55a4bbe145140cc96ad17db7999be836\jetified-android-sdk-5.5.1\AndroidManifest.xml:10:22-63
+49
+50    <application
+50-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:16:5-180:19
+51        android:name="com.example.jayde.a4ease.App"
+51-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:17:9-28
+52        android:allowBackup="true"
+52-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:18:9-35
+53        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+53-->[androidx.core:core:1.1.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\bcfc0b80df78591183083cc148e1cf2c\core-1.1.0\AndroidManifest.xml:24:18-86
+54        android:debuggable="true"
+55        android:icon="@drawable/veroplogo"
+55-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:19:9-43
+56        android:label="@string/app_name"
+56-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:20:9-41
+57        android:roundIcon="@drawable/veroplogo"
+57-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:21:9-48
+58        android:screenOrientation="portrait"
+58-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:22:9-45
+59        android:supportsRtl="true"
+59-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:23:9-35
+60        android:testOnly="true"
+61        android:theme="@style/AppTheme" >
+61-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:24:9-40
+62        <activity
+62-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:26:9-34:20
+63            android:name="com.example.jayde.a4ease.SplashScreen"
+63-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:26:19-47
+64            android:screenOrientation="portrait" >
+64-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:27:13-49
+65            <intent-filter>
+65-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:29:13-33:29
+66                <action android:name="android.intent.action.MAIN" />
+66-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:30:17-69
+66-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:30:25-66
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:32:17-77
+68-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:32:27-74
+69            </intent-filter>
+70        </activity>
+71        <activity
+71-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:35:9-37:52
+72            android:name="com.example.jayde.a4ease.AdminDashBoard"
+72-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:36:13-43
+73            android:screenOrientation="portrait" />
+73-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:37:13-49
+74        <activity
+74-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:38:9-39:52
+75            android:name="com.example.jayde.a4ease.AdminLogin"
+75-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:38:19-45
+76            android:screenOrientation="portrait" />
+76-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:39:13-49
+77        <activity
+77-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:40:9-43:59
+78            android:name="com.example.jayde.a4ease.DisplayLocation"
+78-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:41:13-44
+79            android:screenOrientation="portrait"
+79-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:42:13-49
+80            android:theme="@style/AppTheme.CustomTheme" />
+80-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:43:13-56
+81        <activity
+81-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:44:9-47:59
+82            android:name="com.example.jayde.a4ease.CollectCash"
+82-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:45:13-40
+83            android:screenOrientation="portrait"
+83-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:46:13-49
+84            android:theme="@style/AppTheme.CustomTheme" />
+84-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:47:13-56
+85        <activity
+85-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:48:9-52:58
+86            android:name="com.example.jayde.a4ease.PaymentDetails"
+86-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:49:13-43
+87            android:screenOrientation="portrait"
+87-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:50:13-49
+88            android:theme="@style/AppTheme.CustomTheme" />
+88-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:52:13-56
+89        <activity
+89-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:53:9-57:56
+90            android:name="com.example.jayde.a4ease.OnlinePayment"
+90-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:54:13-42
+91            android:screenOrientation="portrait"
+91-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:55:13-49
+92            android:theme="@style/AppTheme.CustomTheme" />
+92-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:56:13-56
+93        <activity
+93-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:58:9-61:56
+94            android:name="com.example.jayde.a4ease.CarsCustomer"
+94-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:59:13-41
+95            android:screenOrientation="portrait" />
+95-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:60:13-49
+96        <activity
+96-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:62:9-65:56
+97            android:name="com.example.jayde.a4ease.CarBooking"
+97-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:63:13-39
+98            android:screenOrientation="portrait" />
+98-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:64:13-49
+99        <activity
+99-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:66:9-69:56
+100            android:name="com.example.jayde.a4ease.DisplayCars"
+100-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:67:13-40
+101            android:screenOrientation="portrait" />
+101-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:68:13-49
+102        <activity
+102-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:70:9-73:56
+103            android:name="com.example.jayde.a4ease.CustomerDashBoard"
+103-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:71:13-46
+104            android:screenOrientation="portrait" />
+104-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:72:13-49
+105        <activity
+105-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:74:9-78:56
+106            android:name="com.example.jayde.a4ease.ZoomImage"
+106-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:75:13-38
+107            android:screenOrientation="portrait"
+107-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:76:13-49
+108            android:theme="@style/AppTheme.CustomTheme" />
+108-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:77:13-56
+109        <activity
+109-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:79:9-82:56
+110            android:name="com.example.jayde.a4ease.RenterDashBoard"
+110-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:80:13-44
+111            android:screenOrientation="portrait" />
+111-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:81:13-49
+112        <activity
+112-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:83:9-88:56
+113            android:name="com.example.jayde.a4ease.navdem"
+113-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:84:13-35
+114            android:label="Menu"
+114-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:85:13-33
+115            android:screenOrientation="portrait"
+115-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:86:13-49
+116            android:theme="@style/AppTheme.NoActionBar" />
+116-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:87:13-56
+117        <activity
+117-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:89:9-99:20
+118            android:name="com.example.jayde.a4ease.StartUp"
+118-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:90:13-36
+119            android:screenOrientation="portrait"
+119-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:91:13-49
+120            android:theme="@style/AppTheme.CustomTheme" >
+120-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:92:13-56
+121            <intent-filter>
+121-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:94:13-98:29
+122                <action android:name="com.example.jayde.a4ease" />
+122-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:95:17-67
+122-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:95:25-64
+123
+124                <category android:name="android.intent.category.DEFAULT" />
+124-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:97:17-76
+124-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:97:27-73
+125            </intent-filter>
+126        </activity>
+127        <activity
+127-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:100:9-105:20
+128            android:name="com.example.jayde.a4ease.login"
+128-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:101:13-34
+129            android:screenOrientation="portrait" >
+129-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:102:13-49
+130        </activity>
+131        <activity
+131-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:106:9-110:56
+132            android:name="com.example.jayde.a4ease.Google"
+132-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:107:13-35
+133            android:label=" "
+133-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:108:13-30
+134            android:screenOrientation="portrait" />
+134-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:109:13-49
+135        <activity
+135-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:111:9-117:56
+136            android:name="com.example.jayde.a4ease.AnyOrientationCaptureActivity"
+136-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:112:13-58
+137            android:screenOrientation="portrait"
+137-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:113:13-49
+138            android:stateNotNeeded="true"
+138-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:114:13-42
+139            android:theme="@style/zxing_CaptureTheme"
+139-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:115:13-54
+140            android:windowSoftInputMode="stateAlwaysHidden" />
+140-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:116:13-60
+141        <activity
+141-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:118:9-127:20
+142            android:name="com.example.jayde.a4ease.CustomerSignUp"
+142-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:119:13-43
+143            android:screenOrientation="portrait"
+143-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:120:13-49
+144            android:theme="@style/AppTheme.CustomTheme" >
+144-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:121:13-56
+145            <intent-filter>
+145-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:94:13-98:29
+146                <action android:name="com.example.jayde.a4ease" />
+146-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:95:17-67
+146-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:95:25-64
+147
+148                <category android:name="android.intent.category.DEFAULT" />
+148-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:97:17-76
+148-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:97:27-73
+149            </intent-filter>
+150        </activity>
+151        <activity
+151-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:128:9-136:20
+152            android:name="com.example.jayde.a4ease.RenterGetLocation"
+152-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:129:13-46
+153            android:screenOrientation="portrait" >
+153-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:130:13-49
+154            <intent-filter>
+154-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:94:13-98:29
+155                <action android:name="com.example.jayde.a4ease" />
+155-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:95:17-67
+155-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:95:25-64
+156
+157                <category android:name="android.intent.category.DEFAULT" />
+157-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:97:17-76
+157-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:97:27-73
+158            </intent-filter>
+159        </activity>
+160        <activity
+160-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:137:9-146:20
+161            android:name="com.example.jayde.a4ease.SignUpRenter"
+161-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:138:13-41
+162            android:screenOrientation="portrait"
+162-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:140:13-49
+163            android:theme="@style/AppTheme.CustomTheme" >
+163-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:139:13-56
+164            <intent-filter>
+164-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:94:13-98:29
+165                <action android:name="com.example.jayde.a4ease" />
+165-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:95:17-67
+165-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:95:25-64
+166
+167                <category android:name="android.intent.category.DEFAULT" />
+167-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:97:17-76
+167-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:97:27-73
+168            </intent-filter>
+169        </activity>
+170        <activity
+170-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:147:9-156:20
+171            android:name="com.example.jayde.a4ease.AddVehicle"
+171-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:148:13-39
+172            android:screenOrientation="portrait" >
+172-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:149:13-49
+173            <intent-filter>
+173-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:94:13-98:29
+174                <action android:name="com.example.jayde.a4ease" />
+174-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:95:17-67
+174-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:95:25-64
+175
+176                <category android:name="android.intent.category.DEFAULT" />
+176-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:97:17-76
+176-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:97:27-73
+177            </intent-filter>
+178        </activity>
+179        <activity
+179-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:157:9-166:20
+180            android:name="com.example.jayde.a4ease.ImageActivity"
+180-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:158:13-42
+181            android:screenOrientation="portrait" >
+181-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:159:13-49
+182            <intent-filter>
+182-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:94:13-98:29
+183                <action android:name="com.example.jayde.a4ease" />
+183-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:95:17-67
+183-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:95:25-64
+184
+185                <category android:name="android.intent.category.DEFAULT" />
+185-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:97:17-76
+185-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:97:27-73
+186            </intent-filter>
+187        </activity>
+188
+189        <service android:name="com.example.jayde.a4ease.UploadService" />
+189-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:168:9-50
+189-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:168:18-47
+190
+191        <uses-library
+191-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:170:9-172:40
+192            android:name="org.apache.http.legacy"
+192-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:171:13-50
+193            android:required="false" />
+193-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:172:13-37
+194
+195        <meta-data
+195-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:174:9-176:69
+196            android:name="com.google.android.gms.version"
+196-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:175:13-58
+197            android:value="@integer/google_play_services_version" />
+197-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:176:13-66
+198        <meta-data
+198-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:177:9-179:59
+199            android:name="com.google.android.maps.v2.API_KEY"
+199-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:178:13-62
+200            android:value="@string/google_maps_api_key" />
+200-->D:\Android\Akmal\app\src\main\AndroidManifest.xml:179:13-56
+201
+202        <activity
+202-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\edff4c94805a2d7fb8007a391e9dc957\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:46:9-52:63
+203            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+203-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\edff4c94805a2d7fb8007a391e9dc957\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:47:13-74
+204            android:clearTaskOnLaunch="true"
+204-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\edff4c94805a2d7fb8007a391e9dc957\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:48:13-45
+205            android:screenOrientation="sensorLandscape"
+205-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\edff4c94805a2d7fb8007a391e9dc957\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:49:13-56
+206            android:stateNotNeeded="true"
+206-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\edff4c94805a2d7fb8007a391e9dc957\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:50:13-42
+207            android:theme="@style/zxing_CaptureTheme"
+207-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\edff4c94805a2d7fb8007a391e9dc957\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:51:13-54
+208            android:windowSoftInputMode="stateAlwaysHidden" />
+208-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\edff4c94805a2d7fb8007a391e9dc957\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:52:13-60
+209
+210        <service
+210-->[com.google.firebase:firebase-database:19.2.1] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\3e824c51aee14a2eb43534159ffb335f\jetified-firebase-database-19.2.1\AndroidManifest.xml:29:9-35:19
+211            android:name="com.google.firebase.components.ComponentDiscoveryService"
+211-->[com.google.firebase:firebase-database:19.2.1] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\3e824c51aee14a2eb43534159ffb335f\jetified-firebase-database-19.2.1\AndroidManifest.xml:30:13-84
+212            android:directBootAware="true"
+212-->[com.google.firebase:firebase-common:19.3.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+213            android:exported="false" >
+213-->[com.google.firebase:firebase-database:19.2.1] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\3e824c51aee14a2eb43534159ffb335f\jetified-firebase-database-19.2.1\AndroidManifest.xml:31:13-37
+214            <meta-data
+214-->[com.google.firebase:firebase-database:19.2.1] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\3e824c51aee14a2eb43534159ffb335f\jetified-firebase-database-19.2.1\AndroidManifest.xml:32:13-34:85
+215                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+215-->[com.google.firebase:firebase-database:19.2.1] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\3e824c51aee14a2eb43534159ffb335f\jetified-firebase-database-19.2.1\AndroidManifest.xml:33:17-109
+216                android:value="com.google.firebase.components.ComponentRegistrar" />
+216-->[com.google.firebase:firebase-database:19.2.1] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\3e824c51aee14a2eb43534159ffb335f\jetified-firebase-database-19.2.1\AndroidManifest.xml:34:17-82
+217            <meta-data
+217-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\c8c55a9dfb88ee84ed4b575295b8e34f\jetified-firebase-storage-19.1.1\AndroidManifest.xml:33:13-35:85
+218                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+218-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\c8c55a9dfb88ee84ed4b575295b8e34f\jetified-firebase-storage-19.1.1\AndroidManifest.xml:34:17-107
+219                android:value="com.google.firebase.components.ComponentRegistrar" />
+219-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\c8c55a9dfb88ee84ed4b575295b8e34f\jetified-firebase-storage-19.1.1\AndroidManifest.xml:35:17-82
+220            <meta-data
+220-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\0526cb993bcd3b17a19f28f783b8b1d9\jetified-play-services-measurement-api-17.2.2\AndroidManifest.xml:30:13-32:85
+221                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+221-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\0526cb993bcd3b17a19f28f783b8b1d9\jetified-play-services-measurement-api-17.2.2\AndroidManifest.xml:31:17-139
+222                android:value="com.google.firebase.components.ComponentRegistrar" />
+222-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\0526cb993bcd3b17a19f28f783b8b1d9\jetified-play-services-measurement-api-17.2.2\AndroidManifest.xml:32:17-82
+223            <meta-data
+223-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\14092e63484c408036652bf98e042e26\jetified-firebase-iid-20.0.2\AndroidManifest.xml:32:13-34:85
+224                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+224-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\14092e63484c408036652bf98e042e26\jetified-firebase-iid-20.0.2\AndroidManifest.xml:33:17-96
+225                android:value="com.google.firebase.components.ComponentRegistrar" />
+225-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\14092e63484c408036652bf98e042e26\jetified-firebase-iid-20.0.2\AndroidManifest.xml:34:17-82
+226        </service>
+227
+228        <activity android:name="com.paypal.android.sdk.payments.PaymentActivity" />
+228-->[com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\998d2f0c6b194b4cc6422ac04d38c578\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:13:9-84
+228-->[com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\998d2f0c6b194b4cc6422ac04d38c578\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:13:19-81
+229        <activity android:name="com.paypal.android.sdk.payments.PaymentMethodActivity" />
+229-->[com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\998d2f0c6b194b4cc6422ac04d38c578\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:14:9-90
+229-->[com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\998d2f0c6b194b4cc6422ac04d38c578\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:14:19-87
+230        <activity android:name="com.paypal.android.sdk.payments.PaymentConfirmActivity" />
+230-->[com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\998d2f0c6b194b4cc6422ac04d38c578\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:15:9-91
+230-->[com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\998d2f0c6b194b4cc6422ac04d38c578\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:15:19-88
+231        <activity android:name="com.paypal.android.sdk.payments.LoginActivity" />
+231-->[com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\998d2f0c6b194b4cc6422ac04d38c578\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:16:9-82
+231-->[com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\998d2f0c6b194b4cc6422ac04d38c578\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:16:19-79
+232        <activity android:name="com.paypal.android.sdk.payments.PayPalFuturePaymentActivity" />
+232-->[com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\998d2f0c6b194b4cc6422ac04d38c578\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:17:9-96
+232-->[com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\998d2f0c6b194b4cc6422ac04d38c578\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:17:19-93
+233        <activity android:name="com.paypal.android.sdk.payments.FuturePaymentConsentActivity" />
+233-->[com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\998d2f0c6b194b4cc6422ac04d38c578\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:18:9-97
+233-->[com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\998d2f0c6b194b4cc6422ac04d38c578\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:18:19-94
+234        <activity android:name="com.paypal.android.sdk.payments.FuturePaymentInfoActivity" />
+234-->[com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\998d2f0c6b194b4cc6422ac04d38c578\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:19:9-94
+234-->[com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\998d2f0c6b194b4cc6422ac04d38c578\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:19:19-91
+235        <activity android:name="com.paypal.android.sdk.payments.PayPalProfileSharingActivity" />
+235-->[com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\998d2f0c6b194b4cc6422ac04d38c578\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:20:9-97
+235-->[com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\998d2f0c6b194b4cc6422ac04d38c578\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:20:19-94
+236        <activity android:name="com.paypal.android.sdk.payments.ProfileSharingConsentActivity" />
+236-->[com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\998d2f0c6b194b4cc6422ac04d38c578\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:21:9-98
+236-->[com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\998d2f0c6b194b4cc6422ac04d38c578\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:21:19-95
+237
+238        <service
+238-->[com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\998d2f0c6b194b4cc6422ac04d38c578\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:23:9-25:40
+239            android:name="com.paypal.android.sdk.payments.PayPalService"
+239-->[com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\998d2f0c6b194b4cc6422ac04d38c578\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:24:13-73
+240            android:exported="false" />
+240-->[com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\998d2f0c6b194b4cc6422ac04d38c578\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:25:13-37
+241
+242        <receiver
+242-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\e78ea75fc38ff4415d281ae9feb22a4f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:29:9-33:20
+243            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+243-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\e78ea75fc38ff4415d281ae9feb22a4f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:30:13-85
+244            android:enabled="true"
+244-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\e78ea75fc38ff4415d281ae9feb22a4f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:31:13-35
+245            android:exported="false" >
+245-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\e78ea75fc38ff4415d281ae9feb22a4f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:32:13-37
+246        </receiver>
+247        <receiver
+247-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\e78ea75fc38ff4415d281ae9feb22a4f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:34:9-42:20
+248            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+248-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\e78ea75fc38ff4415d281ae9feb22a4f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:35:13-100
+249            android:enabled="true"
+249-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\e78ea75fc38ff4415d281ae9feb22a4f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:36:13-35
+250            android:exported="true"
+250-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\e78ea75fc38ff4415d281ae9feb22a4f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:37:13-36
+251            android:permission="android.permission.INSTALL_PACKAGES" >
+251-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\e78ea75fc38ff4415d281ae9feb22a4f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:38:13-69
+252            <intent-filter>
+252-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\e78ea75fc38ff4415d281ae9feb22a4f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:39:13-41:29
+253                <action android:name="com.android.vending.INSTALL_REFERRER" />
+253-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\e78ea75fc38ff4415d281ae9feb22a4f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:40:17-79
+253-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\e78ea75fc38ff4415d281ae9feb22a4f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:40:25-76
+254            </intent-filter>
+255        </receiver>
+256
+257        <service
+257-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\e78ea75fc38ff4415d281ae9feb22a4f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:44:9-47:40
+258            android:name="com.google.android.gms.measurement.AppMeasurementService"
+258-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\e78ea75fc38ff4415d281ae9feb22a4f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:45:13-84
+259            android:enabled="true"
+259-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\e78ea75fc38ff4415d281ae9feb22a4f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:46:13-35
+260            android:exported="false" />
+260-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\e78ea75fc38ff4415d281ae9feb22a4f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:47:13-37
+261        <service
+261-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\e78ea75fc38ff4415d281ae9feb22a4f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:48:9-52:72
+262            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+262-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\e78ea75fc38ff4415d281ae9feb22a4f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:49:13-87
+263            android:enabled="true"
+263-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\e78ea75fc38ff4415d281ae9feb22a4f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:50:13-35
+264            android:exported="false"
+264-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\e78ea75fc38ff4415d281ae9feb22a4f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:51:13-37
+265            android:permission="android.permission.BIND_JOB_SERVICE" />
+265-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\e78ea75fc38ff4415d281ae9feb22a4f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:52:13-69
+266
+267        <receiver
+267-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\14092e63484c408036652bf98e042e26\jetified-firebase-iid-20.0.2\AndroidManifest.xml:37:9-44:20
+268            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+268-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\14092e63484c408036652bf98e042e26\jetified-firebase-iid-20.0.2\AndroidManifest.xml:38:13-78
+269            android:exported="true"
+269-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\14092e63484c408036652bf98e042e26\jetified-firebase-iid-20.0.2\AndroidManifest.xml:39:13-36
+270            android:permission="com.google.android.c2dm.permission.SEND" >
+270-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\14092e63484c408036652bf98e042e26\jetified-firebase-iid-20.0.2\AndroidManifest.xml:40:13-73
+271            <intent-filter>
+271-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\14092e63484c408036652bf98e042e26\jetified-firebase-iid-20.0.2\AndroidManifest.xml:41:13-43:29
+272                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+272-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\14092e63484c408036652bf98e042e26\jetified-firebase-iid-20.0.2\AndroidManifest.xml:42:17-81
+272-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\14092e63484c408036652bf98e042e26\jetified-firebase-iid-20.0.2\AndroidManifest.xml:42:25-78
+273            </intent-filter>
+274        </receiver>
+275
+276        <activity
+276-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\2be5ef2959ea5355d833f1cf7554bfda\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+277            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+277-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\2be5ef2959ea5355d833f1cf7554bfda\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+278            android:exported="false"
+278-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\2be5ef2959ea5355d833f1cf7554bfda\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+279            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+279-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\2be5ef2959ea5355d833f1cf7554bfda\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+280
+281        <provider
+281-->[com.google.firebase:firebase-common:19.3.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+282            android:name="com.google.firebase.provider.FirebaseInitProvider"
+282-->[com.google.firebase:firebase-common:19.3.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+283            android:authorities="com.example.jayde.a4ease.firebaseinitprovider"
+283-->[com.google.firebase:firebase-common:19.3.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+284            android:exported="false"
+284-->[com.google.firebase:firebase-common:19.3.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+285            android:initOrder="100" />
+285-->[com.google.firebase:firebase-common:19.3.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+286        <provider
+286-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\f8e2b213c9c6535c422622afbf842b10\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+287            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+287-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\f8e2b213c9c6535c422622afbf842b10\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+288            android:authorities="com.example.jayde.a4ease.lifecycle-process"
+288-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\f8e2b213c9c6535c422622afbf842b10\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+289            android:exported="false"
+289-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\f8e2b213c9c6535c422622afbf842b10\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+290            android:multiprocess="true" />
+290-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\f8e2b213c9c6535c422622afbf842b10\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+291
+292        <activity
+292-->[io.card:android-sdk:5.5.1] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\55a4bbe145140cc96ad17db7999be836\jetified-android-sdk-5.5.1\AndroidManifest.xml:20:9-22:66
+293            android:name="io.card.payment.CardIOActivity"
+293-->[io.card:android-sdk:5.5.1] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\55a4bbe145140cc96ad17db7999be836\jetified-android-sdk-5.5.1\AndroidManifest.xml:21:13-58
+294            android:configChanges="keyboardHidden|orientation" />
+294-->[io.card:android-sdk:5.5.1] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\55a4bbe145140cc96ad17db7999be836\jetified-android-sdk-5.5.1\AndroidManifest.xml:22:13-63
+295        <activity android:name="io.card.payment.DataEntryActivity" />
+295-->[io.card:android-sdk:5.5.1] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\55a4bbe145140cc96ad17db7999be836\jetified-android-sdk-5.5.1\AndroidManifest.xml:23:9-70
+295-->[io.card:android-sdk:5.5.1] C:\Users\MrAA\.gradle\caches\transforms-2\files-2.1\55a4bbe145140cc96ad17db7999be836\jetified-android-sdk-5.5.1\AndroidManifest.xml:23:19-67
+296    </application>
+297
+298</manifest>

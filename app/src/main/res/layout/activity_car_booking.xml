@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main"
+    android:id="@+id/cLCarBooking"
+    tools:context=".CarBooking">
+
+    <include
+        android:id="@+id/include3"
+        layout="@layout/mylogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="hideKeyBoard"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/llMainCarBooking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="@drawable/bg_white"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtDateFrom"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/date_from"
+                android:textSize="@dimen/medium_font_size" />
+
+            <FrameLayout
+                android:id="@+id/clearSearchButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btnDateFrom"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@color/zxing_transparent" />
+
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:scaleType="fitXY"
+                    android:tint="@color/light_blue"
+                    android:src="@drawable/ic_insert_invitation_blue_24dp" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtDateTo"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Date To"
+                android:textSize="@dimen/medium_font_size" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btnDateTo"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@color/zxing_transparent" />
+
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:scaleType="fitXY"
+                    android:tint="@color/light_blue"
+                    android:src="@drawable/ic_insert_invitation_blue_24dp" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rBtnDriver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Driver" />
+
+            <RadioButton
+                android:id="@+id/rBtnCity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Outside from city" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnBook"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_blue_shadow"
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:text="@string/book" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/map_fragment_car_booking"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="gone">
+
+    </FrameLayout>
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:background="@drawable/bg_logo"
+        android:contentDescription="TODO"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:padding="3dp"
+        android:src="@drawable/logomini"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

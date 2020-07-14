@@ -1,0 +1,366 @@
+[
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_group_btn.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\drawable\\bg_group_btn.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_logo.png.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\drawable-v24\\logo.png"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_cars_customer.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\layout\\activity_cars_customer.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_slideshow.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\drawable\\ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gradient.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\drawable\\gradient.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_bg2.jpg.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\drawable-v24\\bg2.jpg"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_power_settings_new_black_24dp.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\drawable\\ic_power_settings_new_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\layout_startup_renter.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\layout\\startup_renter.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_gallery.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\drawable\\ic_menu_gallery.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_rounded_btn.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\drawable-v24\\rounded_btn.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_phone_android_black_24dp.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\drawable\\ic_phone_android_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_payment_details.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\layout\\activity_payment_details.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_bg.jpg.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\drawable-v24\\bg.jpg"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add_circle_outline_blue_24dp.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\drawable\\ic_add_circle_outline_blue_24dp.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_logomini.jpg.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\drawable-v24\\logomini.jpg"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_vehicle.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\layout\\activity_add_vehicle.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_notifications_gray_24dp.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\drawable\\ic_notifications_gray_24dp.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_main.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\drawable\\bg_main.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_person_outline_black_24dp.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\drawable\\ic_person_outline_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_account.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\drawable\\account.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_car1.jpg.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\drawable-v24\\car1.jpg"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_admin_login.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\layout\\activity_admin_login.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_notifications_blue_24dp.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\drawable\\ic_notifications_blue_24dp.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\layout_app_bar_navdem.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\layout\\app_bar_navdem.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_manage.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\drawable\\ic_menu_manage.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_navdem.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\layout\\content_navdem.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_side_nav_bar.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash_screen.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\layout_startup.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\layout\\startup.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_bg_cars.jpg.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\drawable-v24\\bg_cars.jpg"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_bg1.jpg.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\drawable-v24\\bg1.jpg"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_check_circle_black_24dp.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\drawable\\ic_check_circle_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_display_location.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\layout\\activity_display_location.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add_a_photo_blue_24dp.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\drawable\\ic_add_a_photo_blue_24dp.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_settings_applications_black_24dp.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\drawable\\ic_settings_applications_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_insert_invitation_blue_24dp.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\drawable\\ic_insert_invitation_blue_24dp.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_white.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\drawable\\bg_white.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_display_ren_house.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\layout\\activity_display_ren_house.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\layout_webview.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\layout\\webview.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_gradient_blue.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\drawable\\bg_gradient_blue.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_admin.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\layout\\activity_admin.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_car_booking.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\layout\\activity_car_booking.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_bg_blue_shadow.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\drawable-v24\\bg_blue_shadow.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_customer_dash_board.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\layout\\activity_customer_dash_board.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_send.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\drawable\\ic_menu_send.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_bg_verop.jpg.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\drawable-v24\\bg_verop.jpg"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_car.jpg.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\drawable\\bg_car.jpg"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_camera.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\drawable\\ic_menu_camera.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_navdem.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\layout\\activity_navdem.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\layout_sign_up_renter.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\layout\\sign_up_renter.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_zoom_image.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\layout\\activity_zoom_image.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_phone_black_24dp.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\drawable\\ic_phone_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_directions_car_black_24dp.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\drawable\\ic_directions_car_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\layout_image_item.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\layout\\image_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_share.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\drawable\\ic_menu_share.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\layout_mylogo.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\layout\\mylogo.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_underline.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\drawable\\underline.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_online_payment.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\layout\\activity_online_payment.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_logo.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\drawable\\bg_logo.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_renter_dash_board.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\layout\\activity_renter_dash_board.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_bg3.jpg.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\drawable-v24\\bg3.jpg"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\layout_settings.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\layout\\settings.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_colect_cash.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\layout\\activity_colect_cash.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_sign2.jpg.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\drawable-v24\\sign2.jpg"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_header_navdem.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\layout\\nav_header_navdem.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_veroplogo.png.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\drawable-v24\\veroplogo.png"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_lock_outline_blue_24dp.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\drawable\\ic_lock_outline_blue_24dp.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_lock_black_24dp.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\drawable\\ic_lock_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic2.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\drawable\\ic2.xml"
+    },
+    {
+        "merged": "D:\\Android\\Akmal\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_images.xml.flat",
+        "source": "D:\\Android\\Akmal\\app\\src\\main\\res\\layout\\activity_images.xml"
+    }
+]

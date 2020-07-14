@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/car1"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_navdem">
+
+    <fragment
+        android:id="@+id/nav_host_fragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:defaultNavHost="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_Booking"
+        android:layout_width="140dp"
+        android:layout_height="56dp"
+        android:background="@drawable/rounded_btn"
+        android:layout_marginTop="9dp"
+        android:onClick="SignUpCustomer"
+        android:text="Bookings"
+        android:textAlignment="center"
+        android:textColor="@color/accent"
+        android:textSize="25sp" />
+    <Button
+        android:id="@+id/btn_Vehicles"
+        android:layout_width="140dp"
+        android:layout_height="56dp"
+        android:layout_below="@+id/btn_Booking"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/rounded_btn"
+        android:onClick="SignUpCustomer"
+        android:text="Vehicles"
+        android:textAlignment="center"
+        android:textColor="@color/accent"
+        android:textSize="25sp" />
+    <Button
+        android:id="@+id/btn_Track"
+        android:layout_width="140dp"
+        android:layout_height="56dp"
+        android:layout_below="@+id/btn_Vehicles"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/rounded_btn"
+        android:onClick="SignUpCustomer"
+        android:text="Track"
+        android:textAlignment="center"
+        android:textColor="@color/accent"
+        android:textSize="25sp" />
+
+    <TableLayout
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/nav_host_fragment"
+
+        >
+
+        <TableRow
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            >
+
+            <Button
+                android:id="@+id/btnSignUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button"
+                android:textSize="24sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
+
+</RelativeLayout>
